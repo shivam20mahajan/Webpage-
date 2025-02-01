@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <title> Food Ordering and Delivery Weebpage</title>
+</head>
+<body>
+
+    <div class="sidebar">
+        <h1 class="logo">FOOD HUB</h1>
+
+        <div class="sidebar-menus">
+            <a href="#"><ion-icon name="storefront-outline"></ion-icon> HOME</a>
+            <a href="#"><ion-icon name="receipt-outline"></ion-icon> BILLS</a>
+            <a href="#"><ion-icon name="wallet-outline"></ion-icon> WALLET</a>
+            <a href="#"><ion-icon name="notifications-outline"></ion-icon> NOTIFICATION</a>
+            <a href="#"><ion-icon name="chatbubbles-outline"></ion-icon> CONTACT US</a>
+            <a href="#"><ion-icon name="settings-outline"></ion-icon> SETTINGS</a>
+        </div>
+        <div class="sidebar-logout">
+            <a href="#"><ion-icon name="log-out-outline"></ion-icon> Logout</a>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="main-navbar">
+            <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+            <div class="search">
+                <input type="text" placeholder="What do you want to eat?">
+                <button class="search-btn">Search</button>
+            </div>
+            <div class="profile">
+                <a class="cart" href="#"><ion-icon name="cart-outline"></ion-icon></a>
+                <a class="user" href="#"><ion-icon name="person-outline"></ion-icon></a>
+            </div>
+        </div>
+
+        <div class="main-highlight">
+            <div class="main-header">
+                <h2 class="main-title">Recommendations</h2>
+                <div class="main-arrow">
+                    <ion-icon class="back" name="chevron-back-circle-outline"></ion-icon>
+                    <ion-icon class="next" name="chevron-forward-circle-outline"></ion-icon>
+                </div>
+            </div>
+
+            <div class="highlight-wrapper">
+                <div class="highlight-card">
+                    <img class="highlight-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDbXuGTdoZI4twSqqWvx2fhzYDUTq4ufn6tg&s" alt="Fresh Paneer">
+                    <div class="highlight-desc">
+                        <h4>Fresh Paneer</h4>
+                        <p>Rs.150</p>
+                    </div>
+                </div>
+
+                <div class="highlight-card">
+                    <img class="highlight-img" src="https://images5.alphacoders.com/393/393394.jpg" alt="Fresh Salad">
+                    <div class="highlight-desc">
+                        <h4>Fresh Salad</h4>
+                        <p>Rs.99</p>
+                    </div>
+                </div>
+
+                <div class="highlight-card">
+                    <img class="highlight-img" src="https://i0.wp.com/cookingfromheart.com/wp-content/uploads/2020/10/Kaju-Masala-3.jpg?w=768&ssl=1" alt="Kaju Masala">
+                    <div class="highlight-desc">
+                        <h4>Kaju Masala</h4>
+                        <p>Rs.179</p>
+                    </div>
+                </div>
+
+                <div class="highlight-card">
+                    <img class="highlight-img" src="https://as2.ftcdn.net/v2/jpg/02/76/15/33/1000_F_276153396_SGx4Fp47mBEz2zMbqM60bDghndu912iK.jpg" alt="Shev Bhaji">
+                    <div class="highlight-desc">
+                        <h4>Shev Bhaji</h4>
+                        <p>Rs.110</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-menu">
+            <div class="main-filter">
+                <h2 class="main-title">MENU <br> Category</h2>
+                <div class="main-arrow">
+                    <ion-icon class="back-menus" name="chevron-back-circle-outline"></ion-icon>
+                    <ion-icon class="next-menus" name="chevron-forward-circle-outline"></ion-icon>
+                </div>
+                <div class="filter-wrapper">
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="restaurant-outline"></ion-icon>
+                        </div>
+                        <p>All Menus</p>
+                    </div>
+                    
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="wine-outline"></ion-icon>
+                        </div>
+                        <p>Wine</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="ice-cream-outline"></ion-icon>
+                        </div>
+                        <p>Ice-Cream</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="cafe-outline"></ion-icon>
+                        </div>
+                        <p>Coffee</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="divider">
+        <div class="main-detail">
+            <h2 class="main-title">Choose Order</h2>
+            <div class="detail-wrapper">
+                
+                <div class="detail-card">
+                    <img class="detail-img" src="https://thumbs.dreamstime.com/b/suji-ka-halwa-ravyacha-sheera-indian-delicacy-which-prepared-rava-sugar-dry-fruits-garnished-cashew-pista-190127845.jpg">
+                    <div class="detail-desc">
+                        <h4>Sweet Sheera</h4>
+                        <p class="detail-sub">Sheera is made from the Rawa(sooji) or Wheat Flour slightly coarse. </p>
+                        <p class="price">Rs.49</p>
+                        <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="https://t3.ftcdn.net/jpg/00/27/57/96/360_F_27579652_tM7V4fZBBw8RLmZo0Bi8WhtO2EosTRFD.jpg">
+                    <div class="detail-desc">
+                        <h4>Pizza</h4>
+                        <p class="detail-sub">Pizza is the world’s favorite fast food. We eat it everywhere – at home, in restaurants, on street corners. </p>
+                        <p class="price">Rs.149</p>
+                        <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="https://media.istockphoto.com/id/1426308134/photo/south-indian-filter-coffee-served-in-a-traditional-tumbler-or-cup-over-roasted-raw-beans.jpg?s=612x612&w=0&k=20&c=0_pG57x7SK2y8hEBpcMvUrmBLtkwwWfdKDD4p4BZqhk=">
+                    <div class="detail-desc">
+                        <h4>Coffee</h4>
+                        <p class="detail-sub">Coffee is a beverage brewed from roasted, ground coffee beans.  </p>
+                        <p class="price">Rs.99</p>
+                        <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="detail-card">
+                    <img class="detail-img" src="https://www.shutterstock.com/image-photo/pictures-natural-fresh-fruit-juice-260nw-2335482853.jpg">
+                    <div class="detail-desc">
+                        <h4>Fruit Juice</h4>
+                        <p class="detail-sub">Fruit juice can contain vitamins, minerals, and antioxidants that may have health benefits.  </p>
+                        <p class="price">Rs.49</p>
+                        <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    
+    <script src="script.js"></script>
+    
+
+</body>
+</html>
